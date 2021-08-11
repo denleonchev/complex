@@ -7,7 +7,7 @@ services:
   # worker:
   #   image: 'backpack812/multi-worker'
   nginx:
-    image: 'yeasy/simple-web',
+    image: 'yeasy/simple-web'
     ports:
       - '80:80'
     # links:
