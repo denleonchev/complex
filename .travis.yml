@@ -19,7 +19,7 @@ deploy:
   provider: elasticbeanstalk
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key:
-    secure: $AWS_SECRET_ACCESS_KEY
+    secure: geTdr/dwX8Xe5CpJAy0bCXPq88JXWMBGB1doVe9b/ROkDrYSVC8ogtUD1sRKb2bdfELfsj/FmNLlwVzVYsnoZWyYFrkGpB38VfJy0O4TFuFfoHkV3gUSnAftPRHwEtoD3SUhuWrCgQ7lU8db5Vqt9a1DfqyIMWiUBnYGMs1NPP/dWNAu3MWiSzpQtTd/VY1dXgSHZx0SqvIFjHwa56AV51Tl2Dm6/NkRA1sQdEGbYZdTwddmJ3lK6m22Oij2xZufIWqUcYsFeNFArZkQvLBx/KXfghuOCofjA06HXCh2cBWr7EeT6rx4UL0iSQdg5as5XKGWsD6znSpY6rrbJvBwfoKkf+UA9+8RkaTaZt6K9paGBbBEoPwR7OCYqVXX61B16W52kWdrpwGTs+5saQ1bt+H2eNgNHf1aJGuZ3YVMap+47Xcm2jNMmIDRNPoYk/2egwEpplcIc+sMEOemy6y28CedPXIvw7wbTB8lniMKr5v3kEw4Rp5FqLmY+RN/F8wF9l1KmgZp2iU3zEMQO6RtGHXWP17fgqtvlpnQTEzVtxP4XmJNlWXxc3RUGxB9RXASk+11VkfXTqlp75EtUfY+LPWeoxWf221/ue3q3FMuk4XB5qgjHJNVl2fmM+qfO/IVtxKnBJCpHE++UKUFLUAVSmc8NmKm1aEfynMWVTLudFs=
   region: us-east-2
   app: complex-docker
   env: Complexdocker-env
