@@ -2,12 +2,16 @@ version: '3'
 services:
   api:
     image: 'backpack812/multi-server'
+    mem_limit: 128m
   client:
     image: 'backpack812/multi-client'
+    mem_limit: 128m
   worker:
     image: 'backpack812/multi-worker'
+    mem_limit: 128m
   nginx:
     image: 'backpack812/multi-nginx'
+    mem_limit: 128m
     ports:
       - '80:80'
     links:
