@@ -1,0 +1,15 @@
+version: '3'
+services:
+  api:
+    image: 'backpack812/multi-server'
+  client:
+    image: 'backpack812/multi-client'
+  worker:
+    image: 'backpack812/multi-worker'
+  nginx:
+    image: 'backpack812/multi-nginx',
+    ports:
+      - '80:80'
+    links:
+      - client
+      - api
